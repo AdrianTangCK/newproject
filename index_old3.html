@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox Filter Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Item Filter with Checkboxes</h1>
+    <form id="filterForm">
+        <label><input type="checkbox" value="Apple" onchange="filterItems()"> Apple</label>
+        <label><input type="checkbox" value="Banana" onchange="filterItems()"> Banana</label>
+        <label><input type="checkbox" value="Cherry" onchange="filterItems()"> Cherry</label>
+        <label><input type="checkbox" value="Date" onchange="filterItems()"> Date</label>
+        <label><input type="checkbox" value="Grapes" onchange="filterItems()"> Grapes</label>
+        <label><input type="checkbox" value="Mango" onchange="filterItems()"> Mango</label>
+        <label><input type="checkbox" value="Orange" onchange="filterItems()"> Orange</label>
+        <label><input type="checkbox" value="Strawberry" onchange="filterItems()"> Strawberry</label>
+    </form>
+    <ul id="itemList">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+        <li>Date</li>
+        <li>Grapes</li>
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Strawberry</li>
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>
