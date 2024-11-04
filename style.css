@@ -4,18 +4,23 @@ body {
     margin-top: 50px;
 }
 
-#locationForm {
+input {
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
-#locationInput {
-    padding: 10px;
-    font-size: 16px;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-#results div {
-    margin: 10px 0;
+li {
     padding: 10px;
+    font-size: 18px;
     border: 1px solid #ccc;
+    margin: 5px 0;
     border-radius: 5px;
+    background-color: #f9f9f9;
 }

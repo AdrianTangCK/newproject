@@ -3,17 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nearby Locations</title>
+    <title>Filter Example</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
 </head>
 <body>
-    <h1>Find Nearby Locations</h1>
-    <form id="locationForm">
-        <input type="text" id="locationInput" placeholder="Enter location">
-        <button type="button" onclick="getNearbyLocations()">Search</button>
-    </form>
-    <div id="results"></div>
+    <h1>Item Filter</h1>
+    <input type="text" id="filterInput" onkeyup="filterItems()" placeholder="Search for items...">
+    <ul id="itemList">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+        <li>Date</li>
+        <li>Grapes</li>
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Strawberry</li>
+    </ul>
+    <script src="script.js"></script>
 </body>
 </html>
-
